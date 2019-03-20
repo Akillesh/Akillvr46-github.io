@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(background.jpg);
+    background-size:cover;
+}
+.container{
+    top: 50%;
+    left:50%;
+    position:fixed;
+    transform:translate(-50%,-50%);
+    text-decoration-color: black;
+}
+.card{
+    padding: 60px 40px 50px 40px;
+    background:rgb(30,30,30);
+    border-radius: 20px;
+}
+#name{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding: 6px;
+    margin-bottom: 15px;
+    color: antiquewhite;
+}
+#button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    outline: none;
+    color:white;
+    border: none;
+    margin-left: 50px;
+}
+a{
+    font-size: 15px;
+    
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+#button:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+ul{
+    float: left;
+    list-style-type: none;
+}
+ul li{
+display: inline-block;    
+}
+ul li a{
+    color: aqua;
+    padding: 5px 20px;
+    bottom: 1px solid #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: azure;
+    color: black;
+    cursor:pointer;
+}
+.c1{
+    ul{
+       float:right;
+        
+        
+    }
+    ul li{
+        color: aqua;
+    padding: 5px 20px;
+    bottom: 1px solid #fff;
+    text-decoration: none;
+        text-align-last: right;
+    }
+    ul li a{
+        color: red;
+        padding: 10px 20px;
+        bottom: 1px solid #fff;
+        text-decoration-color: aqua;
+        font-size: 20px;
+        
+    }
+    ul li a:hover{
+        background-color: white;
+        color:black;
+        cursor: pointer;
+    }
+    h1{
+        color: yellow;
+    }
